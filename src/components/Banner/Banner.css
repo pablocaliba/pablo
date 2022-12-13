@@ -1,0 +1,460 @@
+.banner--home {
+  padding: 2rem 0rem 12rem 0rem;
+  position: relative;
+}
+
+.banner--home h1 {
+  color: var(--cyan);
+  font-size: 40px;
+  line-height: 80px;
+  margin-top: 40px;
+  font-family: var(--font700);
+}
+
+.banner--home p {
+  font-family: var(--font600);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--gray);
+  margin: 8px 0px 56px 0px;
+  max-width: 710px;
+}
+
+.banner--home-img-desktop {
+  z-index: 1;
+  position: relative;
+  background-color: transparent;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+.banner--home-img-desktop img {
+  margin-top: -60px;
+}
+
+.banner--home-desktop-span {
+  box-shadow: -7px 2px 281px 111px rgb(43 167 167 / 40%);
+  box-shadow: #00ffff;
+  height: 2rem;
+  width: 0rem;
+  border-radius: 0px;
+  position: absolute;
+  left: 78%;
+  z-index: 0;
+  margin-top: 190px;
+}
+
+.banner--home-container-info {
+  padding: 0px 105px;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  background-color: transparent;
+}
+
+.banner--home-container-button {
+  background-color: transparent;
+}
+
+/* logo  */
+
+.banner--logo {
+  display: none;
+  background-color: #121212;
+}
+
+.banner--logo img {
+  height: 107px;
+  width: auto;
+  margin-bottom: 6px;
+}
+
+.banner--home-img-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 0px) {
+  .banner--home {
+    padding: 0rem;
+  }
+
+  /* // hidden components */
+
+  .banner--home-img-desktop {
+    display: none;
+  }
+
+  /* logo mobile */
+
+  .banner--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 43px 0px 8px 0px;
+  }
+
+  /* // image & shadow  */
+
+  .banner--home-img-mobile {
+    display: block;
+    width: 100%;
+    height: 279px;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .banner--home-img-mobile img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: right;
+    margin-top: 16px;
+  }
+
+  .banner--home-img-mobile span {
+    box-shadow: -49px 115px 347px 108px rgb(43 167 167 / 40%);
+    box-shadow: #00ffff;
+    height: 0rem;
+    width: 0rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 61%;
+    z-index: 0;
+  }
+
+  /* info banner */
+
+  .banner--home-container-info {
+    padding: 0px;
+    width: auto;
+  }
+
+  .banner--home h1 {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .banner--home p {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0px;
+    text-align: center;
+    padding: 0 40px;
+  }
+
+  .banner--home-container-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .banner--home {
+    padding: 0rem;
+  }
+
+  /* // hidden components */
+
+  .banner--home-img-desktop {
+    display: none;
+  }
+
+  /* logo mobile */
+
+  .banner--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  .banner--logo img {
+    height: 142px;
+    margin-bottom: 0px;
+  }
+
+  /* // image & shadow  */
+
+  .banner--home-img-mobile {
+    width: 100%;
+    height: 323px;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: block;
+  }
+
+  .banner--home-img-mobile img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: right;
+    margin-top: 13px;
+  }
+
+  .banner--home-img-mobile span {
+    box-shadow: -49px 115px 347px 108px rgb(43 167 167 / 40%);
+    box-shadow: #00ffff;
+    height: 0rem;
+    width: 0rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 61%;
+    z-index: 0;
+  }
+
+  /* info banner */
+
+  .banner--home-container-info {
+    padding: 0px;
+    width: auto;
+  }
+
+  .banner--home h1 {
+    font-size: 28px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0 20px;
+  }
+
+  .banner--home p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .banner--home-container-button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .banner--home {
+    padding: 0rem;
+  }
+
+  /* // hidden components */
+
+  .banner--home-img-desktop {
+    display: none;
+  }
+
+  /* logo mobile */
+
+  .banner--logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 8px 0px;
+  }
+
+  .banner--logo img {
+    height: 127px;
+    width: auto;
+    margin-bottom: 0px;
+  }
+
+  /* // image & shadow  */
+
+  .banner--home-img-mobile {
+    width: 100%;
+    height: 396px;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: block;
+  }
+
+  .banner--home-img-mobile img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: right;
+    margin-top: 38px;
+  }
+
+  .banner--home-img-mobile span {
+    box-shadow: -49px 115px 347px 108px rgb(43 167 167 / 40%);
+    box-shadow: #00ffff;
+    height: 0rem;
+    width: 0rem;
+    border-radius: 100%;
+    position: absolute;
+    left: 61%;
+    z-index: 0;
+  }
+
+  /* info banner */
+
+  .banner--home-container-info {
+    padding: 0px;
+    width: auto;
+  }
+
+  .banner--home h1 {
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    margin: 0px;
+    padding: 0 20px;
+  }
+
+  .banner--home p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding: 0 10%;
+    margin: 0px;
+  }
+
+  .banner--home-container-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .banner--home {
+    padding: 0rem;
+  }
+
+  /* // hidden components */
+
+  .banner--home-img-mobile {
+    display: none;
+  }
+
+  .banner--logo {
+    display: none;
+  }
+
+  /* info banner */
+
+  .banner--home-container-info {
+    padding: 0px;
+  }
+
+  .banner--home h1 {
+    font-size: 38px;
+    line-height: 35px;
+    text-align: start;
+    margin-top: 34px;
+    padding: 0px 0px 0px 50px;
+    width: 100%;
+  }
+
+  .banner--home p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 16px;
+    text-align: start;
+    padding: 0px 0px 0px 50px;
+    margin-bottom: 32px;
+  }
+
+  .banner--home-container-button {
+    display: flex;
+    padding: 0 50px;
+    justify-content: flex-start;
+  }
+
+  /* image banner */
+  .banner--home-img-desktop {
+    width: 100%;
+    height: 396px;
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+  }
+
+  .banner--home-desktop-span {
+    box-shadow: 2px -143px 277px 118px rgb(43 167 167 / 40%);
+  }
+
+  .banner--home-img-desktop img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    object-fit: cover;
+    object-position: right;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .banner--home p {
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 993px) {
+  .banner--home {
+    padding: 0rem;
+  }
+
+  /* // hidden components */
+
+  .banner--home-img-mobile {
+    display: none;
+  }
+
+  .banner--logo {
+    display: none;
+  }
+
+  /* image banner */
+  .banner--home-img-desktop {
+    width: 100%;
+    height: 396px;
+    z-index: 1;
+  }
+
+  .banner--home-img-desktop img {
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: right;
+    background-size: contain;
+  }
+}

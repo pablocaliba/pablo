@@ -1,0 +1,44 @@
+.videoHome--container {
+  height: 770px;
+  width: 100%;
+  background-color: #d9d9d9;
+  color: black;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 1px) {
+  .videoHome--container {
+    height: 180px;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .videoHome--container {
+    height: 280px;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .videoHome--container {
+    height: 380px;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .videoHome--container {
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 993px) {
+  .videoHome--container {
+    height: 580px;
+  }
+}

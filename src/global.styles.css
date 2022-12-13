@@ -1,0 +1,11 @@
+:root {
+  --fullwidth: 100%;
+  --cyan: #00ffff;
+  --gray: #adb9c7;
+  --font400: "Hind Siliguri Ligth";
+  --font500: "Hind Siliguri Regular";
+  --font600: "Hind Siliguri Medium";
+  --font700: "Hind Siliguri Bold";
+  --font800: "Hind Siliguri SemiBold";
+  --transition: 0.5s ease-in-out 0s;
+}

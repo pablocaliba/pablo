@@ -1,0 +1,67 @@
+.buttonSecondary {
+  height: 71px;
+  width: 196px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--font600);
+  border-radius: 19px;
+  color: var(--cyan);
+  background-color: transparent;
+  border: 2px solid var(--cyan);
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSecondary:hover {
+  background-color: var(--cyan);
+  border-color: 1px solid #00ffff;
+  color: black;
+  transition: 0.5s ease-in-out 0s;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 1px) {
+  .buttonSecondary {
+    height: 48px;
+    width: 195px;
+    border-color: 1px solid var(--cyan);
+    border-radius: 12px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .buttonSecondary {
+    height: 50px;
+    width: 180px;
+    border-radius: 14px;
+    border-color: 1px solid var(--cyan);
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .buttonSecondary {
+    height: 56px;
+    width: 202px;
+    border-radius: 14px;
+    border-color: 1px solid var(--cyan);
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .buttonSecondary {
+    height: 71px;
+    width: 211px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+}

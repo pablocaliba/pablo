@@ -1,0 +1,22 @@
+.ButtonDialog {
+  padding: 8px 50px;
+  border-radius: 8px;
+  background-color: #116473;
+  color: #5de8ff;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.ButtonDialog:hover {
+  background-color: #5de8ff;
+  color: #116473;
+  transition: 0.2s ease-in-out 0s;
+}

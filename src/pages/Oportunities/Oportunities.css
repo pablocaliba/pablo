@@ -1,0 +1,318 @@
+.oportinities--description {
+  font-size: 20px;
+  font-family: var(--font400);
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  padding: 0px 176px;
+  position: relative;
+  z-index: 1;
+}
+
+.oportinities--description p {
+  font-family: var(--font500);
+  font-size: 20px;
+  line-height: 32.34px;
+}
+
+.oportunities--container-box {
+  margin: 63px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.oportunities--box {
+  height: auto;
+  width: 379px;
+  border-radius: 23px;
+  background-color: rgba(217, 217, 217, 0.1);
+  padding: 32px 26px 50px 26px;
+  margin: 0px 22px;
+}
+
+.oportunities--box h2 {
+  color: var(--cyan);
+  font-size: 20px;
+  font-family: var(--font700);
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.oportunities--box p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  font-family: var(--font500);
+  margin-top: 23px;
+}
+
+.oportunities--image {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.oportunities--image img {
+  width: auto;
+  height: 700px;
+}
+
+.oportunities--span-1 {
+  box-shadow: -138px 119px 293px 108px rgb(43 167 167 / 40%);
+  box-shadow: #00ffff;
+  height: 8rem;
+  width: 0rem;
+  position: absolute;
+  left: 73%;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .oportinities--description {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px 20px;
+  }
+
+  .oportinities--description p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .oportunities--container-box {
+    padding: 10px 20px;
+    flex-direction: column;
+    margin: 15px 5%;
+  }
+
+  .oportunities--box {
+    height: auto;
+    margin-bottom: 20px;
+    width: auto;
+    border-radius: 18px;
+    padding: 20px 10px;
+  }
+
+  .oportunities--box h2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .oportunities--box p {
+    font-size: 12px;
+    line-height: 19px;
+    margin: 4px 0px 10px 0px;
+  }
+
+  .oportunities--image {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .oportunities--image img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .oportinities--description {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 39px;
+  }
+
+  .oportinities--description p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .oportunities--container-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+  }
+
+  .oportunities--box {
+    height: auto;
+    margin-bottom: 40px;
+    width: 383px;
+    border-radius: 18px;
+    padding: 30px 20px;
+  }
+
+  .oportunities--box h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .oportunities--box p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
+
+  .oportunities--image {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .oportunities--image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .oportinities--description {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 49px;
+  }
+
+  .oportinities--description p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .oportunities--container-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 0;
+  }
+
+  .oportunities--box {
+    height: auto;
+    margin-bottom: 45px;
+    width: 518px;
+    border-radius: 18px;
+    padding: 30px 20px;
+  }
+
+  .oportunities--box h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .oportunities--box p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7px;
+  }
+
+  .oportunities--image {
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .oportunities--image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .oportinities--description {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 60px;
+  }
+
+  .oportinities--description p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .oportunities--container-box {
+    padding: 0px;
+    margin: 50px 5% 0px 5%;
+  }
+
+  .oportunities--box {
+    height: auto;
+    margin-bottom: 0px;
+    border-radius: 18px;
+    padding: 20px 17px;
+    width: 243px;
+    margin: 0px 14px;
+  }
+
+  .oportunities--box h2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .oportunities--box p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .oportunities--image {
+    width: 100%;
+    margin-top: 90px;
+  }
+
+  .oportunities--image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .oportinities--description {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0px 68px;
+  }
+
+  .oportinities--description p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .oportunities--container-box {
+    padding: 10px;
+    margin: 78px 0px 0px 0px;
+    justify-content: center;
+  }
+
+  .oportunities--box {
+    height: auto;
+    margin: 0px;
+    width: 302px;
+    padding: 25px 20px;
+    margin: 0px 17px;
+  }
+
+  .oportunities--box h2 {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .oportunities--box p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 15px;
+  }
+
+  .oportunities--image {
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .oportunities--image img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 120px;
+  }
+}

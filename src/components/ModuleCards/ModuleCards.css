@@ -1,0 +1,357 @@
+.moduleCards {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  align-content: center;
+  margin: 80px 0px;
+}
+
+.moduleCards--container-1 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.moduleCards--container-2 {
+  flex-direction: row-reverse;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* cards description */
+.moduleCards--container-description {
+  width: 45%;
+  color: #f8f8f8;
+}
+
+.moduleCards h3 {
+  font-size: 33px;
+  font-family: var(--font700);
+  line-height: 42px;
+  max-width: 38rem;
+  margin-top: 20px;
+}
+
+.moduleCards h2 {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: var(--font400);
+  margin-top: 16px;
+}
+
+.text-schedule p {
+  margin-bottom: 20px;
+  padding-left: 16px;
+  border-left: 4px solid #fff;
+}
+
+.moduleCards span {
+  font-family: var(--font700);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.container--1-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+/* end of cards description  */
+
+/* //image */
+.moduleCards--container-image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.moduleCards--image {
+  max-height: 380px;
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+/* SHADOW */
+
+.moduleCards--container-image span {
+  box-shadow: 0px 86px 283px 70px rgb(43 167 167 / 40%);
+  box-shadow: #00ffff;
+  height: 8rem;
+  width: 0rem;
+  margin-left: 13rem;
+  position: absolute;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 1px) {
+  .moduleCards {
+    margin: 30px 0px;
+  }
+
+  .moduleCards--container-1 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .moduleCards--container-2 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  /* cards description */
+  .moduleCards--container-description {
+    width: 100%;
+  }
+
+  .moduleCards h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    max-width: 100%;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .moduleCards h2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+
+  .moduleCards span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .container--1-box {
+    margin-bottom: 14px;
+  }
+
+  .text-schedule p {
+    padding-left: 6px;
+    border-left: 2px solid #fff;
+  }
+
+  /* //image */
+  .moduleCards--container-image {
+    width: 100%;
+  }
+
+  .moduleCards--image {
+    max-height: 245px;
+  }
+
+  /* shadow */
+
+  .moduleCards--container-image span {
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .moduleCards {
+    margin: 40px 0px;
+  }
+
+  .moduleCards--container-1 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .moduleCards--container-2 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  /* cards description */
+  .moduleCards--container-description {
+    width: 100%;
+  }
+
+  .moduleCards h3 {
+    font-size: 22px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .moduleCards h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .moduleCards span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* //image */
+  .moduleCards--container-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .moduleCards--image {
+    max-height: 245px;
+  }
+
+  /* shadow */
+
+  .moduleCards--container-image span {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .moduleCards {
+    margin: 40px 0px;
+  }
+
+  .moduleCards--container-1 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .moduleCards--container-2 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  /* cards description */
+  .moduleCards--container-description {
+    width: 100%;
+  }
+
+  .moduleCards h3 {
+    font-size: 22px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .moduleCards h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .moduleCards span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* //image */
+  .moduleCards--container-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .moduleCards--image {
+    max-height: 205px;
+  }
+
+  /* shadow */
+
+  .moduleCards--container-image span {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .moduleCards {
+    margin: 45px 0px;
+    max-width: 75%;
+  }
+
+  /* cards description */
+  .moduleCards--container-description {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .moduleCards h3 {
+    font-size: 24px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-top: 0px;
+    text-align: start;
+  }
+
+  .moduleCards h2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .moduleCards span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  /* //image */
+  .moduleCards--container-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .moduleCards--image {
+    max-height: 300px;
+  }
+
+  /* shadow */
+
+  .moduleCards--container-image span {
+    margin: 0rem;
+  }
+
+  /* //lines */
+
+  .containerModulesInfo--line-1 {
+    margin-top: 67px;
+    height: 5px;
+  }
+
+  .containerModulesInfo--line-2 {
+    margin-top: 11px;
+    height: 13px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .moduleCards--container-description {
+    height: 87%;
+  }
+
+  .moduleCards h3 {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .moduleCards h2 {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 20px;
+  }
+
+  .moduleCards span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .moduleCards--image {
+    max-height: 342px;
+  }
+}

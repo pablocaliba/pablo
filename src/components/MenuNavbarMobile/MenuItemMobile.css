@@ -1,0 +1,9 @@
+.menuItemContainer {
+  background: rgba(93, 232, 255, 0.06);
+  padding: 16px 0px 15px 21px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 21px;
+}

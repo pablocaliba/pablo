@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+  color: #fff;
+  background: transparent;
+}
+
+.PrivateSwipeArea-root-2 {
+  width: 0px !important;
+}
+
+.PrivateSwipeArea-root-3 {
+  width: 0px !important;
+}
+
+.PrivateSwipeArea-anchorLeft-4 {
+  width: 0px !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-family: var(--font700) !important;
+  font-size: 18px !important;
+}
+
+.MuiFocused {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  font-family: var(--font700) !important;
+  font-size: 20px !important;
+}
+
+@font-face {
+  font-family: "Hind Siliguri Ligth";
+  src: url(./fonts/HindSiliguri-Light.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Hind Siliguri Regular";
+  src: url(./fonts/HindSiliguri-Regular.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Hind Siliguri Medium";
+  src: url(./fonts/HindSiliguri-Medium.ttf) format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Hind Siliguri Bold";
+  src: url(./fonts/HindSiliguri-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Hind Siliguri SemiBold";
+  src: url(./fonts/HindSiliguri-SemiBold.ttf) format("truetype");
+  font-weight: 800;
+}

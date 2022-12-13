@@ -1,0 +1,193 @@
+.buttonBanner {
+  height: 154px;
+  width: 503px;
+  border-radius: 29px;
+  background: rgba(0, 255, 255, 0.05);
+  color: #fff;
+  font-size: 28px;
+  line-height: 32px;
+  border-color: transparent;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: var(--font700);
+  box-shadow: 0 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .buttonBanner--container {
+    width: 100%;
+  }
+
+  .buttonBanner {
+    height: 95px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .buttonBanner img {
+    height: 67px;
+  }
+
+  .buttonBanner p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .buttonBanner {
+    height: 95px;
+    width: 350px;
+    border-radius: 11px;
+    font-size: 18px;
+    font-family: var(--font600);
+    margin-bottom: 23px;
+  }
+
+  .buttonBanner img {
+    height: 70px;
+  }
+
+  .buttonBanner p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .buttonBanner {
+    height: 108px;
+    width: 398px;
+    border-radius: 19px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 26px;
+  }
+
+  .buttonBanner img {
+    height: 89px;
+  }
+
+  .buttonBanner p {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .buttonBanner {
+    height: 83px;
+    width: 275px;
+    border-radius: 19px;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0px 10px;
+    margin: 10px;
+  }
+
+  .buttonBanner:hover {
+    transition: 0.5s ease-in-out 0s;
+    background-color: rgba(0, 255, 255, 0.15);
+  }
+
+  .buttonBanner img {
+    height: 70px;
+    position: relative;
+    opacity: 1;
+  }
+
+  .buttonBanner:hover img {
+    transition: 0.5s ease-in-out 0s;
+    opacity: 0;
+  }
+
+  .buttonBanner p {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .buttonBanner:hover p {
+    opacity: 1;
+    transition: 0.5s ease-in-out 0s;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .buttonBanner {
+    height: 115px;
+    width: 350px;
+    border-radius: 19px;
+    background: rgba(0, 255, 255, 0.05);
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0px 10px;
+    margin: 0 20px 20px 20px;
+  }
+
+  .buttonBanner:hover {
+    transition: 0.5s ease-in-out 0s;
+    background-color: rgba(0, 255, 255, 0.15);
+  }
+
+  .buttonBanner:hover img {
+    transition: 0.5s ease-in-out 0s;
+    opacity: 0;
+  }
+
+  .buttonBanner:hover p {
+    opacity: 1;
+    transition: 0.5s ease-in-out 0s;
+  }
+
+  .buttonBanner p {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .buttonBanner img {
+    height: 92px;
+    position: relative;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1281px) {
+  .buttonBanner {
+    height: 125px;
+    width: 370px;
+    border-radius: 19px;
+    background: rgba(0, 255, 255, 0.05);
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+  }
+
+  .buttonBanner:hover {
+    transition: 0.5s ease-in-out 0s;
+    background-color: rgba(0, 255, 255, 0.15);
+  }
+
+  .buttonBanner img {
+    height: 92px;
+    position: relative;
+    opacity: 1;
+  }
+
+  .buttonBanner:hover img {
+    transition: 0.5s ease-in-out 0s;
+    opacity: 0;
+  }
+
+  .buttonBanner p {
+    position: absolute;
+    opacity: 0;
+  }
+
+  .buttonBanner:hover p {
+    opacity: 1;
+    transition: 0.5s ease-in-out 0s;
+  }
+}

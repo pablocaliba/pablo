@@ -1,0 +1,208 @@
+.learningPartners--4-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.learningPartners--4-box span {
+  font-family: var(--font700);
+}
+
+.learningPartners--4-box p {
+  font-family: var(--font500);
+  text-align: left;
+}
+
+.learningPartners--4-box-container h2 {
+  background-color: #116473;
+  color: #fff;
+  font-family: var(--font500);
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  height: auto;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .learningPartners--4-box {
+    padding: 5px 40px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 12px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .learningPartners--4-box {
+    padding: 5px 40px;
+    margin-top: 24px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 16px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .learningPartners--4-box {
+    padding: 23px 85px;
+    margin-top: 32px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 20px;
+    line-height: 42px;
+    height: 64px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .learningPartners--4-box {
+    padding: 20px 54px;
+    margin-top: 10px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 24px;
+    line-height: 42px;
+    height: 63px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .learningPartners--4-box {
+    padding: 20px 30px;
+    margin-top: 0px;
+    height: 368px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .learningPartners--4-box-container {
+    width: 25%;
+    height: 100%;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 24px;
+    line-height: 42px;
+    height: 63px;
+    padding: 0px;
+  }
+
+  .learningPartners--container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .learningPartners--box-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1281px) {
+  .learningPartners--4-box {
+    padding: 20px 30px;
+    margin-top: 0px;
+    height: 368px;
+  }
+
+  .learningPartners--4-box span {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .learningPartners--4-box p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+  }
+
+  .learningPartners--4-box-container {
+    width: 25%;
+    height: 100%;
+  }
+
+  .learningPartners--4-box-container h2 {
+    font-size: 24px;
+    line-height: 42px;
+    height: 63px;
+    padding: 0px;
+  }
+
+  .learningPartners--container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .learningPartners--box-container {
+    width: 70%;
+  }
+}

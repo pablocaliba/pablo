@@ -1,0 +1,567 @@
+.about--container-description {
+  margin-top: 50px;
+}
+
+.about--container-description-img {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px 0px 100px;
+}
+
+.about--container-description h2 {
+  color: var(--cyan);
+  font-size: 30px;
+  font-family: var(--font700);
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about--container-description p {
+  font-size: 20px;
+  font-family: var(--font500);
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin: 24px 0px 50px 0px;
+}
+
+.about--container-img {
+  height: 850px;
+  margin-top: -150px;
+}
+
+.about--container-img img {
+  max-height: 850px;
+}
+
+.about--container-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: -100px 0px 0px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.about--container-team h2 {
+  color: var(--cyan);
+  font-size: 40px;
+  font-family: var(--font700);
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.about--container-cards-team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+.about--cards-team {
+  width: 30%;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.about--cards-team img {
+  height: 256px;
+  width: auto;
+  border-radius: 35px;
+}
+
+.about--cards-team h3 {
+  font-size: 22px;
+  font-family: var(--font700);
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--cyan);
+}
+
+.about--cards-team h4 {
+  font-size: 20px;
+  font-family: var(--font600);
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.about--cards-team p {
+  font-size: 18px;
+  font-family: var(--font400);
+  line-height: 33px;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.span {
+  box-shadow: -138px 119px 293px 108px rgb(43 167 167 / 40%);
+  box-shadow: #00ffff;
+  height: 8rem;
+  width: 0rem;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .about--container-description {
+    margin-top: -341px;
+    padding: 0px 40px;
+  }
+
+  .about--container-description-img {
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+
+  .about--container-img img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  .about--container-description h2 {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .about--container-description p {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0px 0px 16px 0px;
+  }
+
+  .about--container-img {
+    height: 850px;
+    margin-top: -150px;
+  }
+
+  .about--container-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .about--container-team h2 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .about--container-cards-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .about--cards-team {
+    width: 100%;
+    padding: 0px 50px 10px 50px;
+    justify-content: center;
+  }
+
+  .about--cards-team img {
+    height: 135px;
+    border-radius: 17px;
+    margin-top: 29px;
+  }
+
+  .about--cards-team h3 {
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 10px;
+  }
+
+  .about--cards-team h4 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0px;
+  }
+
+  .about--cards-team p {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 8px;
+  }
+
+  .span {
+    display: block;
+  }
+
+  .about--span-1 {
+    margin-top: -1155px;
+  }
+
+  .about--span-2 {
+    margin-top: 1245px;
+    left: 117%;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .about--container-description {
+    margin-top: -277px;
+    padding: 0px 40px;
+  }
+
+  .about--container-description-img {
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+
+  .about--container-img img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .about--container-description h2 {
+    font-size: 16px;
+    font-family: var(--font500);
+    line-height: 32px;
+  }
+
+  .about--container-description p {
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0px 0px 19px 0px;
+    font-family: var(--font500);
+  }
+
+  .about--container-img {
+    height: 850px;
+    margin-top: -150px;
+  }
+
+  .about--container-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 36px 0px 0px 0px;
+  }
+
+  .about--container-team h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .about--container-cards-team {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about--cards-team {
+    width: 45%;
+    padding: 20px 0px;
+    justify-content: center;
+  }
+
+  .about--cards-team img {
+    height: 194px;
+    border-radius: 17px;
+    margin-bottom: 15px;
+  }
+
+  .about--cards-team h3 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .about--cards-team h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+  }
+
+  .about--cards-team p {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 8px;
+    max-width: 204px;
+  }
+
+  .span {
+    display: block;
+  }
+
+  .about--span-1 {
+    margin-top: -1033px;
+  }
+
+  .about--span-2 {
+    margin-top: 1177px;
+    margin-left: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .about--container-description {
+    margin-top: -113px;
+    padding: 0px 53px;
+  }
+
+  .about--container-description-img {
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+
+  .about--container-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 54px;
+  }
+
+  .about--container-description h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .about--container-description p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 20px 0px;
+  }
+
+  .about--container-img {
+    height: 850px;
+    margin-top: -150px;
+  }
+
+  .about--container-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 40px 0px px 0px;
+  }
+
+  .about--container-team h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .about--container-cards-team {
+    padding: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .about--cards-team {
+    width: 30%;
+    padding: 30px 0px;
+    justify-content: center;
+  }
+
+  .about--cards-team img {
+    height: 236px;
+    border-radius: 18px;
+    margin-bottom: 19px;
+  }
+
+  .about--cards-team h3 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .about--cards-team h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 0px;
+  }
+
+  .about--cards-team p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .span {
+    display: block;
+  }
+
+  .about--span-1 {
+    margin-top: -1220px;
+    margin-left: -241px;
+  }
+
+  .about--span-2 {
+    margin-top: 1251px;
+    margin-left: 110%;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .about--container-description {
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  .about--container-description-img {
+    padding: 0px 0px 0px 60px;
+  }
+
+  .about--container-description h2 {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: var(--font500);
+  }
+
+  .about--container-description p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 360px;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .about--container-img {
+    height: auto;
+    margin-top: -150px;
+    width: 100%;
+  }
+
+  .about--container-img img {
+    width: 100%;
+    height: auto;
+    margin-top: 34px;
+  }
+
+  .about--container-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+  }
+
+  .about--container-team h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 0px;
+  }
+
+  .about--container-cards-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .about--cards-team {
+    width: 30%;
+    padding: 40px 0px;
+    justify-content: flex-start;
+  }
+
+  .about--cards-team img {
+    height: 194px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+  }
+
+  .about--cards-team h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .about--cards-team h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+  }
+
+  .about--cards-team p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .about--container-team {
+    margin: -70px 0px 0px 0px;
+  }
+
+  .about--cards-team img {
+    height: 234px;
+    width: auto;
+    border-radius: 35px;
+    margin-bottom: 40px;
+  }
+
+  .about--container-team {
+    margin: -50px 0px 150px 0px;
+  }
+
+  .about--container-description-img {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 58px;
+  }
+
+  .about--container-description {
+    margin-top: 106px;
+  }
+
+  .about--container-description h2 {
+    font-size: 22px;
+    font-family: var(--font500);
+    line-height: 22px;
+  }
+
+  .about--cards-team h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .about--container-description p {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .about--cards-team h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 5px;
+  }
+
+  .about--cards-team p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

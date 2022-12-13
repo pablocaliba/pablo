@@ -1,0 +1,211 @@
+/* title  */
+.partnership--box-description-text h2 {
+  display: none;
+  font-family: var(--font500);
+}
+
+.partnership--box-description-title {
+  width: 30%;
+  background-color: transparent;
+}
+
+.partnership--box-description h4 {
+  font-size: 28px;
+  font-family: var(--font700);
+  line-height: 20px;
+  color: #000;
+  background-color: var(--cyan);
+  height: 100%;
+  margin-right: 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 29px;
+}
+
+.partnership--box-description {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+  background-color: transparent;
+}
+
+/* container description */
+
+.partnership--box-description-text {
+  width: 70%;
+  height: 100%;
+  font-size: 22px;
+  font-family: var(--font500);
+  line-height: 32px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.partnership--box-description-text li {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #fff;
+  background-color: #414141;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  /* title desktop */
+
+  .partnership--box-description-title {
+    display: none;
+  }
+
+  /* title mobile */
+  .partnership--box-description-text h2 {
+    display: block;
+    padding-bottom: 26px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  /* container description */
+
+  .partnership--box-description {
+    justify-content: center;
+  }
+
+  .partnership--box-description-text {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 11px;
+    line-height: 15px;
+    text-align: left;
+    padding: 24px 12px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .partnership--box-description-title {
+    display: none;
+  }
+
+  /* title mobile */
+  .partnership--box-description-text h2 {
+    display: block;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  /* container description */
+
+  .partnership--box-description {
+    justify-content: center;
+  }
+
+  .partnership--box-description-text {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .partnership--box-description {
+    padding: 0px 51px;
+  }
+
+  /* box title  */
+
+  .partnership--box-description-title {
+    width: 50%;
+  }
+
+  .partnership--box-description h4 {
+    font-size: 16px;
+    margin-right: 15px;
+    height: 87px;
+  }
+
+  /* container description */
+
+  .partnership--box-description-text {
+    width: 80%;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 0px 10px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    height: 87px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  /* box title  */
+
+  .partnership--box-description-title {
+    width: 308px;
+  }
+
+  .partnership--box-description h4 {
+    font-size: 18px;
+    margin-right: 20px;
+    width: 206px;
+  }
+
+  /* container description */
+
+  .partnership--box-description-text {
+    font-size: 14px;
+    height: 113px;
+    line-height: 20px;
+    padding: 0px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  /* box title  */
+
+  .partnership--box-description {
+    padding: 0px 64px;
+  }
+
+  .partnership--box-description-title {
+    width: 406px;
+    height: 150px;
+    margin-right: 27px;
+  }
+
+  .partnership--box-description h4 {
+    font-size: 26px;
+    margin-right: 20px;
+    width: 406px;
+    height: 150px;
+  }
+
+  /* container description */
+
+  .partnership--box-description-text {
+    font-size: 18px;
+    height: 150px;
+    line-height: 24px;
+    padding: 0px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+}

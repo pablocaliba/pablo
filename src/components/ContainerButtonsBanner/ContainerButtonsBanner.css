@@ -1,0 +1,72 @@
+.containerButtonsBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 150px;
+  margin-bottom: 120px;
+  /* display: none; */
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .containerButtonsBanner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 590px;
+    margin-bottom: 60px;
+    padding: 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .containerButtonsBanner {
+    flex-direction: column;
+    padding: 0 20px;
+    margin-top: 608px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .containerButtonsBanner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 678px 0px 61px 0px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .containerButtonsBanner {
+    padding: 0 50px;
+    margin: -14px 0 67px 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .containerButtonsBanner {
+    padding: 0 40px;
+    margin-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1281px) {
+  .containerButtonsBanner {
+    padding: 0 40px;
+    margin-top: 170px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}

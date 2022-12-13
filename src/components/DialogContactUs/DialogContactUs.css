@@ -1,0 +1,46 @@
+.MuiDialogTitle-root .dialogContactUs--title {
+  padding: 36px 76px;
+  font-size: 35px;
+  font-family: var(--font600);
+  line-height: 40px;
+}
+
+.MuiInputLabel-root .MuiInputLabel-formControl {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .MuiDialogTitle-root .dialogContactUs--title {
+    padding: 30px 76px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .MuiDialogTitle-root .dialogContactUs--title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .MuiDialogTitle-root .dialogContactUs--title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .MuiDialogTitle-root .dialogContactUs--title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .MuiDialogTitle-root .dialogContactUs--title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}

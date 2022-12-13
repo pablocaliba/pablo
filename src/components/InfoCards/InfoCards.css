@@ -1,0 +1,172 @@
+.infoCard--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+  align-content: center;
+  align-items: center;
+  min-height: 15rem;
+}
+
+.infoCard--container h2 {
+  color: #00ffff;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: var(--font700);
+}
+
+.infoCard--container img {
+  width: 10rem;
+  background-size: contain;
+}
+
+.infoCard--container p {
+  color: var(--gray);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  max-width: 350px;
+  font-family: var(--font400);
+  min-height: 80px;
+}
+
+.infoCard--container button {
+  border-color: transparent;
+  width: 91px;
+  height: 32px;
+  color: #000000;
+  font-size: 20px;
+  font-family: var(--font700);
+  line-height: 32px;
+  margin-top: 25px;
+  background-color: #00ffff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 44px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .infoCard--container {
+    min-width: 100%;
+  }
+
+  .infoCard--container button {
+    width: 55px;
+    height: 21px;
+    font-size: 14px;
+    margin-bottom: 44px;
+  }
+
+  .infoCard--container h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .infoCard--container {
+    min-width: 100%;
+  }
+
+  .infoCard--container button {
+    width: 55px;
+    height: 21px;
+    font-size: 14px;
+  }
+
+  .infoCard--container h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .infoCard--container {
+    min-width: 50%;
+  }
+
+  .infoCard--container h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .infoCard--container p {
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 249px;
+    min-height: 50px;
+  }
+
+  .infoCard--container button {
+    width: 61px;
+    height: 21px;
+    font-size: 14px;
+  }
+
+  .infoCard--container img {
+    height: 119px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .infoCard--container {
+    min-width: 33%;
+  }
+
+  .infoCard--container h2 {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .infoCard--container img {
+    width: auto;
+    height: 119px;
+  }
+
+  .infoCard--container p {
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 249px;
+    min-height: 65px;
+  }
+
+  .infoCard--container button {
+    border-color: transparent;
+    width: 61px;
+    height: 21px;
+    font-size: 14px;
+    margin: 10px 0px 44px 0px;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 993px) {
+  .infoCard--container h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .infoCard--container img {
+    width: auto;
+    height: 119px;
+  }
+
+  .infoCard--container p {
+    font-size: 16px;
+    line-height: 17px;
+    max-width: 318px;
+    min-height: 69px;
+  }
+
+  .infoCard--container button {
+    border-color: transparent;
+    width: 78px;
+    height: 27px;
+    font-size: 16px;
+    margin: 10px 0px 44px 0px;
+  }
+}

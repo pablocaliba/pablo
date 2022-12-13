@@ -1,0 +1,185 @@
+.alert-dialog {
+  height: 448px;
+  min-width: 550px;
+}
+
+.alert-dialog--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.alert-dialog--container h2 {
+  font-size: 30px;
+  font-family: var(--font700);
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--cyan);
+}
+
+.alert-dialog--container p {
+  font-size: 18px;
+  font-family: var(--font400);
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--gray);
+  margin: 12px 0px 20px 0px;
+  max-width: 500px;
+}
+
+.alert-dialog--container img {
+  height: 177px;
+  width: 177px;
+}
+
+.alert-dialog--button-close {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.alert-dialog--button-close button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dialog--custom .MuiDialogContent-root {
+  overflow: hidden !important;
+  background: #121212 !important;
+  border: 3px solid var(--cyan);
+}
+
+.dialog--custom .MuiDialog-paper {
+  border-radius: 0px;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .alert-dialog {
+    height: 100%;
+    min-width: 50px;
+  }
+
+  .alert-dialog--container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .alert-dialog--container h2 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  .alert-dialog--container p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+    margin: 12px 0px;
+  }
+
+  .alert-dialog--container img {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .alert-dialog {
+    height: 100%;
+    min-width: 100px;
+  }
+
+  .alert-dialog--container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .alert-dialog--container h2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: -20px;
+  }
+
+  .alert-dialog--container p {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .alert-dialog {
+    height: 100%;
+    min-width: 100px;
+  }
+
+  .alert-dialog--container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .alert-dialog--container h2 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: -20px;
+  }
+
+  .alert-dialog--container p {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .alert-dialog {
+    height: 100%;
+    min-width: 487px;
+  }
+
+  .alert-dialog--container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .alert-dialog--container h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .alert-dialog--container p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .alert-dialog {
+    height: 100%;
+    min-width: 527px;
+  }
+
+  .alert-dialog--container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .alert-dialog--container h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .alert-dialog--container p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 80%;
+    margin-bottom: 40px;
+  }
+}

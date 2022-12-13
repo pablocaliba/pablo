@@ -1,0 +1,60 @@
+.ButtonFooter {
+  background-color: transparent;
+  border: 1px solid #a6a6a6;
+  border-radius: 8px;
+  padding: 6px 13px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.ButtonFooter img {
+  height: 35px;
+  width: auto;
+}
+
+@media only screen and (max-width: 451px) and (min-width: 10px) {
+  .ButtonFooter {
+    margin: 0px 10px;
+  }
+
+  .ButtonFooter img {
+    height: 21px;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 452px) {
+  .ButtonFooter {
+    margin: 0 15px;
+    padding: 6px 10px;
+  }
+
+  .ButtonFooter img {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  .ButtonFooter img {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  .ButtonFooter {
+    margin-right: 11px;
+    padding: 6px 10px;
+  }
+
+  .ButtonFooter img {
+    height: 23px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 993px) {
+  .ButtonFooter img {
+    height: 24px;
+  }
+}
